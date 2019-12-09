@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
     
-    let eggTimes = ["Soft": 3, "Medium": 420, "Hard": 720]
+    let eggTimes = ["Soft": 300, "Medium": 420, "Hard": 720]
     var timer = Timer()
     var alarmSound: AVAudioPlayer?
     
